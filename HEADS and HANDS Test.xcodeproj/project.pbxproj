@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647A75B2C70FD77E1E1996BA /* Pods_HEADS_and_HANDS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716F44F49DB37153B4576ACF /* Pods_HEADS_and_HANDS_Test.framework */; };
+		E321B5A41F050315003BBCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5A31F050315003BBCD8 /* AppDelegate.swift */; };
+		E321B5A61F050315003BBCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5A51F050315003BBCD8 /* ViewController.swift */; };
+		E321B5A91F050315003BBCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E321B5A71F050315003BBCD8 /* Main.storyboard */; };
+		E321B5AB1F050315003BBCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E321B5AA1F050315003BBCD8 /* Assets.xcassets */; };
+		E321B5AE1F050315003BBCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E321B5AC1F050315003BBCD8 /* LaunchScreen.storyboard */; };
+		E321B5BF1F0506E6003BBCD8 /* String+Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5BE1F0506E6003BBCD8 /* String+Verification.swift */; };
+		E321B5C21F0507AE003BBCD8 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5C01F0507AE003BBCD8 /* AuthorizationViewController.swift */; };
+		E321B5C31F0507AE003BBCD8 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E321B5C11F0507AE003BBCD8 /* AuthorizationViewController.xib */; };
+		E321B5C51F0507D3003BBCD8 /* AuthorizationViewControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5C41F0507D3003BBCD8 /* AuthorizationViewControllerVM.swift */; };
+		E321B5C81F050C7F003BBCD8 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5C71F050C7F003BBCD8 /* BaseButton.swift */; };
+		E321B5CA1F051B0D003BBCD8 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5C91F051B0D003BBCD8 /* WeatherData.swift */; };
+		E321B5CC1F051B9D003BBCD8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5CB1F051B9D003BBCD8 /* Weather.swift */; };
+		E321B5CE1F05230C003BBCD8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5CD1F05230C003BBCD8 /* BaseViewController.swift */; };
+		E321B5D01F0524C2003BBCD8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5CF1F0524C2003BBCD8 /* API.swift */; };
+		E321B5D21F05254E003BBCD8 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5D11F05254E003BBCD8 /* APIPath.swift */; };
+		E321B5D41F052638003BBCD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5D31F052638003BBCD8 /* Constants.swift */; };
+		E321B5D61F052716003BBCD8 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5D51F052716003BBCD8 /* APIRequest.swift */; };
+		E321B5D81F0528A6003BBCD8 /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5D71F0528A6003BBCD8 /* APIResource.swift */; };
+		E321B5DA1F052925003BBCD8 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5D91F052925003BBCD8 /* WeatherManager.swift */; };
+		E321B5DC1F0542F9003BBCD8 /* WeatheDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E321B5DB1F0542F9003BBCD8 /* WeatheDescription.swift */; };
+		E322E4581F09A18F00AB9F4B /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E322E4571F09A18F00AB9F4B /* Error.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B20624EA2CF9C8F4987DDA6 /* Pods-HEADS and HANDS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEADS and HANDS Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-HEADS and HANDS Test/Pods-HEADS and HANDS Test.release.xcconfig"; sourceTree = "<group>"; };
+		716F44F49DB37153B4576ACF /* Pods_HEADS_and_HANDS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HEADS_and_HANDS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E321B5A01F050315003BBCD8 /* HEADS and HANDS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HEADS and HANDS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E321B5A31F050315003BBCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E321B5A51F050315003BBCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E321B5A81F050315003BBCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E321B5AA1F050315003BBCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E321B5AD1F050315003BBCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E321B5AF1F050315003BBCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E321B5BE1F0506E6003BBCD8 /* String+Verification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Verification.swift"; sourceTree = "<group>"; };
+		E321B5C01F0507AE003BBCD8 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		E321B5C11F0507AE003BBCD8 /* AuthorizationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
+		E321B5C41F0507D3003BBCD8 /* AuthorizationViewControllerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationViewControllerVM.swift; sourceTree = "<group>"; };
+		E321B5C71F050C7F003BBCD8 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		E321B5C91F051B0D003BBCD8 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		E321B5CB1F051B9D003BBCD8 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E321B5CD1F05230C003BBCD8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E321B5CF1F0524C2003BBCD8 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E321B5D11F05254E003BBCD8 /* APIPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		E321B5D31F052638003BBCD8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E321B5D51F052716003BBCD8 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		E321B5D71F0528A6003BBCD8 /* APIResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		E321B5D91F052925003BBCD8 /* WeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		E321B5DB1F0542F9003BBCD8 /* WeatheDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatheDescription.swift; sourceTree = "<group>"; };
+		E322E4571F09A18F00AB9F4B /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F5D8E056C353B6CC43E2C68A /* Pods-HEADS and HANDS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HEADS and HANDS Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HEADS and HANDS Test/Pods-HEADS and HANDS Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E321B59D1F050315003BBCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647A75B2C70FD77E1E1996BA /* Pods_HEADS_and_HANDS_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57129A60B83F0FFA4A994860 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D8E056C353B6CC43E2C68A /* Pods-HEADS and HANDS Test.debug.xcconfig */,
+				3B20624EA2CF9C8F4987DDA6 /* Pods-HEADS and HANDS Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8A6DF6999E16CC26C020B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				716F44F49DB37153B4576ACF /* Pods_HEADS_and_HANDS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E321B5971F050315003BBCD8 = {
+			isa = PBXGroup;
+			children = (
+				E321B5A21F050315003BBCD8 /* HEADS and HANDS Test */,
+				E321B5A11F050315003BBCD8 /* Products */,
+				57129A60B83F0FFA4A994860 /* Pods */,
+				C8A6DF6999E16CC26C020B66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E321B5A11F050315003BBCD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5A01F050315003BBCD8 /* HEADS and HANDS Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E321B5A21F050315003BBCD8 /* HEADS and HANDS Test */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5B61F05059A003BBCD8 /* Classes */,
+				E321B5B91F05059A003BBCD8 /* Controllers */,
+				E321B5BB1F05059A003BBCD8 /* Extensions */,
+				E321B5BC1F05059A003BBCD8 /* Model */,
+				E321B5BD1F05059A003BBCD8 /* Utils */,
+				E321B5A31F050315003BBCD8 /* AppDelegate.swift */,
+				E321B5A51F050315003BBCD8 /* ViewController.swift */,
+				E321B5A71F050315003BBCD8 /* Main.storyboard */,
+				E321B5AA1F050315003BBCD8 /* Assets.xcassets */,
+				E321B5AC1F050315003BBCD8 /* LaunchScreen.storyboard */,
+				E321B5AF1F050315003BBCD8 /* Info.plist */,
+			);
+			path = "HEADS and HANDS Test";
+			sourceTree = "<group>";
+		};
+		E321B5B61F05059A003BBCD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5B71F05059A003BBCD8 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E321B5B71F05059A003BBCD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5B81F05059A003BBCD8 /* AuthorizationViewController */,
+				E321B5CD1F05230C003BBCD8 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E321B5B81F05059A003BBCD8 /* AuthorizationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5C01F0507AE003BBCD8 /* AuthorizationViewController.swift */,
+				E321B5C11F0507AE003BBCD8 /* AuthorizationViewController.xib */,
+				E321B5C41F0507D3003BBCD8 /* AuthorizationViewControllerVM.swift */,
+			);
+			path = AuthorizationViewController;
+			sourceTree = "<group>";
+		};
+		E321B5B91F05059A003BBCD8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5BA1F05059A003BBCD8 /* Network */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E321B5BA1F05059A003BBCD8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E391D4E01F0AD1DB0075ADF8 /* API */,
+				E321B5D91F052925003BBCD8 /* WeatherManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E321B5BB1F05059A003BBCD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5C61F050C71003BBCD8 /* UI */,
+				E321B5BE1F0506E6003BBCD8 /* String+Verification.swift */,
+				E322E4571F09A18F00AB9F4B /* Error.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E321B5BC1F05059A003BBCD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5C91F051B0D003BBCD8 /* WeatherData.swift */,
+				E321B5CB1F051B9D003BBCD8 /* Weather.swift */,
+				E321B5DB1F0542F9003BBCD8 /* WeatheDescription.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E321B5BD1F05059A003BBCD8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5D31F052638003BBCD8 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E321B5C61F050C71003BBCD8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5C71F050C7F003BBCD8 /* BaseButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E391D4E01F0AD1DB0075ADF8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E321B5CF1F0524C2003BBCD8 /* API.swift */,
+				E321B5D11F05254E003BBCD8 /* APIPath.swift */,
+				E321B5D51F052716003BBCD8 /* APIRequest.swift */,
+				E321B5D71F0528A6003BBCD8 /* APIResource.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E321B59F1F050315003BBCD8 /* HEADS and HANDS Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E321B5B21F050315003BBCD8 /* Build configuration list for PBXNativeTarget "HEADS and HANDS Test" */;
+			buildPhases = (
+				D7D52EB4ABE7D92307086474 /* [CP] Check Pods Manifest.lock */,
+				E321B59C1F050315003BBCD8 /* Sources */,
+				E321B59D1F050315003BBCD8 /* Frameworks */,
+				E321B59E1F050315003BBCD8 /* Resources */,
+				E5CF362D1BFB08870C32924E /* [CP] Embed Pods Frameworks */,
+				0F1400C748BCBEDD5EBA4FC9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HEADS and HANDS Test";
+			productName = "HEADS and HANDS Test";
+			productReference = E321B5A01F050315003BBCD8 /* HEADS and HANDS Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E321B5981F050315003BBCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Asan Ametov";
+				TargetAttributes = {
+					E321B59F1F050315003BBCD8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MG69ZAJ875;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E321B59B1F050315003BBCD8 /* Build configuration list for PBXProject "HEADS and HANDS Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E321B5971F050315003BBCD8;
+			productRefGroup = E321B5A11F050315003BBCD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E321B59F1F050315003BBCD8 /* HEADS and HANDS Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E321B59E1F050315003BBCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321B5C31F0507AE003BBCD8 /* AuthorizationViewController.xib in Resources */,
+				E321B5AE1F050315003BBCD8 /* LaunchScreen.storyboard in Resources */,
+				E321B5AB1F050315003BBCD8 /* Assets.xcassets in Resources */,
+				E321B5A91F050315003BBCD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F1400C748BCBEDD5EBA4FC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HEADS and HANDS Test/Pods-HEADS and HANDS Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D52EB4ABE7D92307086474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CF362D1BFB08870C32924E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HEADS and HANDS Test/Pods-HEADS and HANDS Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E321B59C1F050315003BBCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321B5C21F0507AE003BBCD8 /* AuthorizationViewController.swift in Sources */,
+				E321B5BF1F0506E6003BBCD8 /* String+Verification.swift in Sources */,
+				E321B5D61F052716003BBCD8 /* APIRequest.swift in Sources */,
+				E321B5CC1F051B9D003BBCD8 /* Weather.swift in Sources */,
+				E321B5D81F0528A6003BBCD8 /* APIResource.swift in Sources */,
+				E321B5A61F050315003BBCD8 /* ViewController.swift in Sources */,
+				E321B5D01F0524C2003BBCD8 /* API.swift in Sources */,
+				E321B5A41F050315003BBCD8 /* AppDelegate.swift in Sources */,
+				E321B5CE1F05230C003BBCD8 /* BaseViewController.swift in Sources */,
+				E321B5C81F050C7F003BBCD8 /* BaseButton.swift in Sources */,
+				E321B5DC1F0542F9003BBCD8 /* WeatheDescription.swift in Sources */,
+				E321B5C51F0507D3003BBCD8 /* AuthorizationViewControllerVM.swift in Sources */,
+				E321B5D21F05254E003BBCD8 /* APIPath.swift in Sources */,
+				E321B5DA1F052925003BBCD8 /* WeatherManager.swift in Sources */,
+				E321B5CA1F051B0D003BBCD8 /* WeatherData.swift in Sources */,
+				E322E4581F09A18F00AB9F4B /* Error.swift in Sources */,
+				E321B5D41F052638003BBCD8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E321B5A71F050315003BBCD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E321B5A81F050315003BBCD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E321B5AC1F050315003BBCD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E321B5AD1F050315003BBCD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E321B5B01F050315003BBCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E321B5B11F050315003BBCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E321B5B31F050315003BBCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D8E056C353B6CC43E2C68A /* Pods-HEADS and HANDS Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = "HEADS and HANDS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.app.HEADS-and-HANDS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E321B5B41F050315003BBCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B20624EA2CF9C8F4987DDA6 /* Pods-HEADS and HANDS Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = "HEADS and HANDS Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.app.HEADS-and-HANDS-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E321B59B1F050315003BBCD8 /* Build configuration list for PBXProject "HEADS and HANDS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E321B5B01F050315003BBCD8 /* Debug */,
+				E321B5B11F050315003BBCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E321B5B21F050315003BBCD8 /* Build configuration list for PBXNativeTarget "HEADS and HANDS Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E321B5B31F050315003BBCD8 /* Debug */,
+				E321B5B41F050315003BBCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E321B5981F050315003BBCD8 /* Project object */;
+}
